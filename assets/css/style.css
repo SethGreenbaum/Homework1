@@ -3,7 +3,6 @@ header {
     position: absolute;
     background-color: #4aaaa5;
     color: white;
-    float: left;
 }
 
 #container1 {
@@ -11,5 +10,4 @@ header {
     margin-right: 100%;
     margin-bottom: 0%;
     margin-top: 0%;
-    float: left;
 }
