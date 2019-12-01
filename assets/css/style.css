@@ -1,28 +1,55 @@
-body{
-    background-image: url(assets/images/ignasi_pattern_s.png);
+body {
+    background-image: url("../../assets/images/ignasi_pattern_s.png");
+    padding-top: 0px;
+    padding-bottom: 40px;
+}
+
+.fixed-header {
+    width: 100%;
+    position: fixed;   
+    background-color: white;
+    padding: 0px
+}
+.fixed-footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    color: white;
+    text-align: center;
+}
+
+#container1 {
+    width: 960px;
+    margin: 0 auto;
+}
+
+#container3 {
+    padding: 10% 15% 10% 15%;
+
 }
 
 #name {
     padding: 20px;
-    position: relative;
+    margin: 0px;
+    border: 0px;
+    position: static;
     background-color: #4aaaa5;
     color: white;
+    float: left;
 }
 
-.container {
+#container2 {
     width: 960px;
+    background-color: white;
+    border: 5px;
+    border-color: black
 }
-#container1 {
-    
-}
+
 
 #nav {
-    position: absolute;
     text-align: center;
     float: right;
-}
-
-#top_margin {
-    margin-left: 20%;
-    margin-right: 20%;
+    padding: 5%;
 }
