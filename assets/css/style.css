@@ -30,6 +30,13 @@ body {
 
 }
 
+.line {
+    display: block;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}
+
 #name {
     padding: 20px;
     margin: 0px;
@@ -40,11 +47,16 @@ body {
     float: left;
 }
 
+#bio-image {
+    float: left;
+}
+
 #container2 {
     width: 960px;
     background-color: white;
     border: 5px;
-    border-color: black
+    border-color: black;
+    padding: 2%;
 }
 
 
