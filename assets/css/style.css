@@ -1,13 +1,28 @@
-header {
+body{
+    background-image: url(assets/images/ignasi_pattern_s.png);
+}
+
+#name {
     padding: 20px;
-    position: absolute;
+    position: relative;
     background-color: #4aaaa5;
     color: white;
 }
 
+.container {
+    width: 960px;
+}
 #container1 {
-    margin-left: 50%;
-    margin-right: 100%;
-    margin-bottom: 0%;
-    margin-top: 0%;
+    
+}
+
+#nav {
+    position: absolute;
+    text-align: center;
+    float: right;
+}
+
+#top_margin {
+    margin-left: 20%;
+    margin-right: 20%;
 }
