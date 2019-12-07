@@ -52,7 +52,7 @@ a:active {
 }
 
 #container1 {
-    width: 960px;
+    width: 950px;
     margin: 0 auto;
 }
 
@@ -88,7 +88,7 @@ h2 {
 }
 
 #container2 {
-    width: 960px;
+    width: 980px;
     background-color: #ffffff;
     border: 1px;
     border-style: solid;

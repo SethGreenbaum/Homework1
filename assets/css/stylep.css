@@ -36,6 +36,7 @@ a:active {
     border-bottom-style: solid;
     border-bottom-color: #cccccc;
     border-bottom-width: 1px;
+    z-index: 3;
 }
 .fixed-footer {
     position: fixed;
@@ -48,16 +49,18 @@ a:active {
     border-top-style: solid;
     border-top-width: 5px;
     border-top-color: #4aaaa5;
+    z-index:2;
 }
 
 #container1 {
-    max-width: 960px;
+    max-width: 950px;
     margin: 0 auto;
 }
 
 #container3 {
     padding: 10% 15% 10% 15%;
     font-family: Arial, Helvetica, sans-serif;
+
 }
 
 .line {
@@ -81,18 +84,15 @@ h2 {
     color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-#bio-image {
-    float: left;
-    padding: 0% 5% 5% 0%;
-}
 
 #container2 {
-    max-width: 960px;
-    min-height: 1000px;
+    width: 980px;
+    height: 720px;
     background-color: #ffffff;
     border: 1px;
     border-style: solid;
     border-color: #dddddd;
+    padding: 2%;
 }
 
 
@@ -115,7 +115,7 @@ div.gallery {
     margin: 5px;
     border: 1px solid #ccc;
     float: left;
-    width: 180px;
+    width: 200px;
 }
   
 div.gallery:hover {
@@ -124,10 +124,44 @@ div.gallery:hover {
   
 div.gallery img {
     width: 100%;
-    height: auto;
 }
   
 div.desc {
-    padding: 15px;
+    padding: 20px 30px 20px 30px;
     text-align: center;
+    margin: 0px;
+    border: 0px;
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    bottom: 10%;
+    left: 0%;
+    top: 50%;
+    right: 0%;
+}
+
+
+.line {
+    display: block;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}
+
+h2 {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.containers {
+    position: relative;
+    text-align: center;
+    color: #dddddd;
+    float: left;
+    margin: 5px;
+    z-index: 1;
+}
+
+.gallerycontain {
+    width: 500px;
 }
