@@ -111,22 +111,18 @@ h2 {
     line-height: 200%;
 }
 
-div.gallery {
+.gallery {
     margin: 5px;
     border: 1px solid #ccc;
     float: left;
     width: 200px;
 }
   
-div.gallery:hover {
+.gallery:hover {
     border: 1px solid #777;
 }
   
-div.gallery img {
-    width: 100%;
-}
-  
-div.desc {
+.desc {
     padding: 20px 30px 20px 30px;
     text-align: center;
     margin: 0px;
@@ -138,6 +134,7 @@ div.desc {
     left: 0%;
     top: 50%;
     right: 0%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 
@@ -164,4 +161,9 @@ h2 {
 
 .gallerycontain {
     width: 500px;
+}
+
+.port {
+    width:200px;
+    height:200px;
 }
