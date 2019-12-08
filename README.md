@@ -1,37 +1,30 @@
-## Welcome to GitHub Pages
+## Homework 1
 
-You can use the [editor on GitHub](https://github.com/SethGreenbaum/Homework1/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+For DU coding BootCamp
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Project Info
 
-### Markdown
+Seth Greenbaum-Portfolio Website
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+```
+Contents
 
-```markdown
-Syntax highlighted code block
+# Index
+## Portfolio
+### Contact
 
-# Header 1
-## Header 2
-### Header 3
+- Images
+- Style-Sheets
 
-- Bulleted
-- List
+1. Images in "Assets/Images" 
+2. CSS in "Assets/css"
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+[Link](https://github.com/SethGreenbaum/Homework1) : Repo
+[Link](https://sethgreenbaum.github.io/Homework1/) : GitHub Pages Site
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### About me
 
-### Jekyll Themes
+I am a student just starting out coding
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/SethGreenbaum/Homework1/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
